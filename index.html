@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<header class="header">
+    <a href="" class="logo"><img src="images/logo.png" alt="" srcset=""></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a href="#home" data-section="#menu_link-1">Start</a></li>
+        <li><a href="#about" data-section="#menu_link-2">O mnie</a></li>
+        <li><a href="#skills" data-section="#menu_link-3">Umiejętności</a></li>
+        <li><a href="#projects" data-section="#menu_link-4">Projekty</a></li>
+        <li><a href="#graphic" data-section="#menu_link-5">Grafika</a></li>
+        <li><a href="#contact" data-section="#menu_link-6">Kontakt</a></li>
+        <li><a href="/en" data-section="en">en</a></li>
+    </ul>
+</header>
+
+<section class="home" id="menu_link-1">
+    <div class="home__container">
+        <h1 class="home__title">Wojciech Kondraciuk</h1>
+        <h2 class="home__subtitle">Web Developer</h2>
+        <div class="home__links">
+            <ul class="menu">
+                <li><a href="#projects" class="home__link" data-section="#menu_link-4">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="menu_link-2">
+    <h6 class="about__title">O mnie</h6>
+    <div class="about__container">
+        <div class="about__content">
+            <div class="about__image">
+                <img src="./images/me.jpg" alt="About me">
+            </div>
+            <div class="about__description">
+<strong> Mam 35 lat i zajmuję się programowaniem stron internetowych oraz projektowaniem graficznym.</strong>
+
+Zaczynałem od tworzenia projektów graficznych w photoshopie. Z czasem zacząłem uczyć się programowania i tworzenia stron internetowych. Aktualnie pogłębiam swoją wiedzę w środowisku JavaScript, poznając biblioteki i frameworki. <br><br>
+
+Ukończyłam studia I stopnia o profilu technologii internetowych i grafiki komputerowej.<br>
+<strong>Pracowałem przez 2 lata w agencji interaktywnej jako programista.<br><br></strong>
+
+Tworzę strony internetowe głównie w HTML/CSS/JS i PHP/MySQL wielu innych technologiach.
+
+Każdego dnia uczę się nowych rozwiązań, aby kolejne projekty były lepsze.<br><br>
+
+<strong>Obecnie wykonuję własne projekty i szukam pracy jako programista.</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="menu_link-3">
+    <h6 class="skills__heading">Umiejętności</h6>
+    <div class="skills__image-container">
+        <img src="./images/int.png" alt="Skills" class="skills__image">
+    </div>
+    <div class="skills__category">
+        <h3 class="skills__title">Znam i uczę się:</h3>
+        <ul class="skills__list">
+            <li class="skills__item">HTML + HTML5</li>
+            <li class="skills__item">CSS + SCSS</li>
+            <li class="skills__item">JS / JQ</li>
+            <li class="skills__item">PHP + MYSQL</li>
+            <li class="skills__item">GIT</li>
+            <li class="skills__item">PHOTSHOP + ILLUSTRATOR</li>
+        </ul>
+    </div>
+    <div class="skills__category">
+        <h4 class="skills__title">Podstawy:</h4>
+        <ul class="skills__list">
+            <li class="skills__item">LARAVEL / SYMFONY</li>
+            <li class="skills__item">React</li>
+        </ul>
+    </div>
+    <div class="skills__category">
+        <h4 class="skills__title">Narzędzia:</h4>
+        <ul class="skills__list">
+            <li class="skills__item">Windows</li>
+            <li class="skills__item">Visual studio code</li>
+            <li class="skills__item">npm/composer</li>
+            <li class="skills__item">Terminal</li>
+        </ul>
+    </div>
+    <div class="skills__category">
+        <h4 class="skills__title">Inne:</h4>
+        <ul class="skills__list">
+            <li class="skills__item">configuring servers</li>
+            <li class="skills__item">wordpress</li>
+            <li class="skills__item">website management</li>
+        </ul>
+    </div>
+</section>
+
+<section class="projects" id="menu_link-4">
+    <h6 class="projects__title">Projekty</h6>
+    <p class="desc">Poniższe aplikacje zostały wykonane w całości przez mnie od podstaw.<br> <strong>Żaden projekt nie był generowany przez AI.</strong></p>
+    <div class="project">
+        <div class="project__image">
+            <img src="./images/www/p1.png" alt="Template restaurants" class="project__image-img">
+        </div>
+        <div class="project__info">
+            <h5 class="project__info-title">Strona www restauracji</h5>
+            <div class="project__info-description">
+                Responsywna strona włoskiej restauracji w stylu OnePage. Wykorzystuje API z menu i CSS animation.
+            </div>
+            <div class="project__info-technologies">
+                <h4 class="project__info-technologies-title">Use:</h4>
+                <span class="project__info-technology">html</span>
+                <span class="project__info-technology">scss</span>
+                <span class="project__info-technology">js/es6</span>
+                <span class="project__info-technology">webpack</span>
+                <span class="project__info-technology">api recipes</span>
+            </div>
+            <div class="project__info-links">
+<a href="https://ruthos.github.io/itally.github.io/" class="project__info-link home__link" target="_blank">Online</a>
+                <a href="https://github.com/wojciech-dev/ItalianRestaurant"
+                    class="project__info-link home__link home__link--grey" target="_blank">Kod</a>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <div class="project__image">
+            <img src="./images/www/p2.png" alt="Build-up website" class="project__image-img">
+        </div>
+        <div class="project__info">
+            <h5 class="project__info-title">Aplikacja React</h5>
+            <div class="project__info-description">
+                Strona internetowa utworzona w React przy użyciu React-Router. Praca z komponentami.
+            </div>
+            <div class="project__info-technologies">
+                <h4 class="project__info-technologies-title">Use:</h4>
+                <span class="project__info-technology">react</span>
+                <span class="project__info-technology">react-router</span>
+                <span class="project__info-technology">jsx</span>
+                <span class="project__info-technology">styled-components</span>
+            </div>
+            <div class="project__info-links">
+<a href="https://build.byst.re/" class="project__info-link home__link" target="_blank">Online</a>
+                <a href="https://github.com/wojciech-dev/buildUp" class="project__info-link home__link home__link--grey"
+                    target="_blank">Kod</a>
+            </div>
+        </div>
+    </div>
+     <div class="project">
+        <div class="project__image">
+            <img src="./images/www/p5.png" alt="CMS system" class="project__image-img">
+        </div>
+        <div class="project__info">
+            <h5 class="project__info-title">CMS system</h5>
+            <div class="project__info-description">
+                Project w trakcie tworzenia...
+            </div>
+            <div class="project__info-technologies">
+                <h4 class="project__info-technologies-title">Use:</h4>
+                <span class="project__info-technology">php</span>
+                <span class="project__info-technology">mysql</span>
+                <span class="project__info-technology">mvc</span>
+                <span class="project__info-technology">composer</span>
+                <span class="project__info-technology">twig</span>
+            </div>
+            <div class="project__info-links">
+                <a href="https://github.com/wojciech-dev/cmsRefactorCode"
+                    class="project__info-link home__link home__link--grey" target="_blank">Kod</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--projects-->
+
+<section class="graphic" id="menu_link-5">
+    <h6 class="graphic__title">Grafika</h6>
+    <p class="desc">Poniższe prace są wykonane w całości przez mnie od podstaw w Photoshop lub Illustrator.<br> <strong>Żaden projekt nie był generowany przez AI.</strong></p>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    
+    <div id="top"></div>
+    <section class="gallery">
+      <div class="row">
+        <ul>
+          <a href="#" class="close"></a>
+          <li>
+            <a href="#item01">
+              <img src="images/graphic/coctail/c_mini.jpg" alt="coctail">
+            </a>
+          </li>
+          <li>
+            <a href="#item02">
+              <img src="images/graphic/flyer/f_mini.jpg" alt="flyer">
+            </a>
+          </li>
+          <li>
+            <a href="#item03">
+              <img src="images/graphic/photos_grave/photos_grave.jpg" alt="photos">
+            </a>
+          </li>
+          <li>
+            <a href="#item04">
+              <img src="images/graphic/flyer/f_mini1.jpg" alt="flyer">
+            </a>
+          </li>
+          <li>
+            <a href="#item05">
+              <img src="images/graphic/card/c_thumb.jpg" alt="buisness_card">
+            </a>
+          </li>
+          <li>
+            <a href="#item06">
+              <img src="images/graphic/wine/w1.jpg" alt="labels">
+            </a>
+          </li>
+          <li>
+            <a href="#item07">
+              <img src="images/graphic/calendar/c_mini.jpg" alt="calendar">
+            </a>
+          </li>
+          <li>
+            <a href="#item08">
+              <img src="images/graphic/logo/l2.jpg" alt="logos">
+            </a>
+          </li>
+          <li>
+<a href="#item09">
+	<img src="images/graphic/logo2/kgw.jpg" alt="kgw">
+</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div id="item01" class="port layout2">
+        <div class="description">
+          <h1>Karta barmańska</h1>
+          <p>W formacie A4 z barmańskimi przepisami na drinki</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/coctail/c_horiz.jpg" alt="karta_barmanska">
+            <img src="images/graphic/coctail/c_verti.jpg" alt="arta_barmanska">
+        </div>
+      </div>
+
+      <div id="item02" class="port layout2">
+        <div class="description">
+          <h1>Ulotki</h1>
+          <p>Kilka ostatnich ulotek/zaproszeń w różnych formatach</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/flyer/f4.jpg" alt="ulotka">
+            <img src="images/graphic/flyer/f5.jpg" alt="ulotka">
+        </div>
+      </div>
+
+      <div id="item03" class="port layout3">
+        <div class="description">
+          <h1>Rekonstrukcja starych zdjęć</h1>
+          <p>Projekt obejmował odnowienie starych, przedwojennych zdjęć. Następnie została przygotowana cyfrowa wersja do druku.
+            <br>Zdjęcia zostały wydrukowane na porcelanie i naklejone na groby.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/photos_grave/w_remake.jpg" alt="jan">
+            <img src="images/graphic/photos_grave/s_remake.jpg" alt="stanislawa">
+            <img src="images/graphic/photos_grave/j_remake.jpg" alt="jozef">
+        </div>
+      </div>
+
+      <div id="item04" class="port layout2">
+        <div class="description">
+          <h1>Ulotki</h1>
+          <p>Wybrane ulotki w różnych formatach</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/flyer/f1.jpg" alt="ulotka">
+            <img src="images/graphic/flyer/f2.jpg" alt="ulotka">
+        </div>
+      </div>
+      <div id="item05" class="port layout2">
+        <div class="description">
+          <h1>Wizytówki</h1>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/card/c_itally.jpg" alt="wizytowka">
+            <img src="images/graphic/card/c_me.jpg" alt="wizytowka">
+        </div>
+      </div>
+      <div id="item06" class="port layout2">
+        <div class="description">
+          <h1>Etykiety</h1>
+          <p>Dedykowane etykiety pod różne okazje</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/wine/w1.jpg" alt="etykieta">
+            <img src="images/graphic/wine/w2.jpg" alt="etykieta">
+        </div>
+      </div>
+      <div id="item07" class="port layout3">
+        <div class="description">
+          <h1>Kalendarze</h1>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/calendar/c_1.jpg" alt="kalendarz">
+            <img src="images/graphic/calendar/c_2.jpg" alt="kalendarz">
+            <img src="images/graphic/calendar/c_3.jpg" alt="kalendarz">
+        </div>
+      </div>
+      <div id="item08" class="port layout3">
+        <div class="description">
+          <h1>Loga</h1>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/logo/l1.jpg" alt="logo">
+            <img src="images/graphic/logo/logo_mini.jpg" alt="logo">
+            <img src="images/graphic/logo/l3.jpg" alt="logo">
+        </div>
+      </div>
+      <div id="item09" class="port layout2">
+        <div class="description">
+          <h1>Loga</h1>
+          <p>Logo oraz statuetka rocznicowa</p>
+        </div>
+        <div class="image-container">
+            <img src="images/graphic/logo2/wk_logo.jpg" alt="logo">
+            <img src="images/graphic/logo2/60.jpg" alt="statuetka">
+        </div>
+      </div>
+
+    </section>
+
+</section>
+
+<section class="contact" id="menu_link-6">
+    <h6 class="contact__title">Kontakt</h6>
+    <h1 class="contact__name">Wojciech Kondraciuk</h1>
+    <a class="contact__phone" href="tel:698150607">698-150-607</a>
+    <a class="contact__email" href="mailto:wk.kondraciuk@gmail.com">wk.kondraciuk@gmail.com</a>
+    <div class="contact__social">
+        <a class="contact__social-link" href="https://www.linkedin.com/in/wojciech-kondraciuk" target="_blank"><img
+                src="images/in.gif" alt="LinkedIn">linkedIn</a>
+        <a class="contact__social-link" href="https://github.com/wojciech-dev" target="_blank"><img
+                src="images/git.gif" alt="GitHub">github</a>
+        <a class="contact__social-link" href="/cv.pdf" target="_blank"><img src="images/cv.gif" alt="CV">cv</a>
+            <a class="contact__social-link" href="https://www.strava.com/athletes/127578935" target="_blank"><img src="images/strava.gif" alt="CV">strava</a>
+      </div>
+</section>
+
+<footer class="footer">® 2019-2025 Wojciech Kondraciuk</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
